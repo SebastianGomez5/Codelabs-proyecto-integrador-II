@@ -13,7 +13,7 @@ import soundfile as sf
 
 # Parámetros
 SR = 16000          # muestreo (Hz)
-DUR = 5.0           # segundos a grabar
+DUR = 10.0           # segundos a grabar
 NFFT = 512          # puntos FFT
 FRAME_MS = 25       # tamaño de ventana (ms)
 HOP_MS = 10         # salto entre ventanas (ms)
