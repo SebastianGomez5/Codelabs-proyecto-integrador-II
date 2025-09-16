@@ -1,11 +1,9 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-from facenet_pytorch import MTCNN
+from mtcnn.mtcnn import MTCNN
 from time import time
-import tensorflow as tf 
 
-print(tf.__version__)
 # Carga imagen (sube archivos en Colab o usa una URL y descárgala)
 img = cv2.imread('messiGod.jpg')  # reemplaza por tu archivo
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
